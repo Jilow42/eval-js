@@ -35,7 +35,7 @@ LoadBar.prototype.run = function() {
 
   fullBar.style.width = this.percentageBarLoaded() + "%";
   fullBar.style.height = "100%";
-  fullBar.style.backgroundColor = "green";
+  fullBar.style.backgroundColor = "orangered";
 
   loadBar.appendChild(fullBar);
   document.body.appendChild(loadBar);
