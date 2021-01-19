@@ -31,3 +31,6 @@ TicTacToe.prototype.createTable = function () {
   table.appendChild(border);  
   document.body.appendChild(table);
 }
+
+var morpion = new TicTacToe();
+morpion.run();
